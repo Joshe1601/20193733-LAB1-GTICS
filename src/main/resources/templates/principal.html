@@ -1,10 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Telecripto</title>
+
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+<!--    <link th:href="@{/bootstrap.min.css}" rel="stylesheet"/>
+    <link th:href="@{/css/style.css}" rel="stylesheet"/>-->
 </head>
 <body>
+<header>
+    <div class="navbar-container">
+        <nav class="navbar">
+            <div class="navbar-first">
+                <div class="nav-search">
+                    <form>
+                        <input aria-label="buscar" type="text" placeholder="Encuentra tus vuelos preferidos">
+                    </form>
+                </div>
+                <div class="nav-buttons">
+                    <a class="" href="/newUser">Explorar</a>
+                    <a class="" href="/newUser">Mis vuelos</a>
+                </div>
+                <div class="nav-login">
+                    <a class="" href="/login">Inicia Sesión</a>
+                </div>
+            </div>
+            <div class="navbar-second">
+                <div class="nav-link">
+                    <a href="#">Vuelos</a>
+                    <a href="#">Paquetes</a>
+                    <a href="#">Hoteles</a>
+                    <a href="#">Autos</a>
+                    <a href="#">Seguros</a>
+                    <a href="#">Upgrade</a>
+                    <a href="#">Centro de ayuda</a>
+                </div>
+            </div>
 
+
+
+        </nav>
+    </div>
+</header>
 </body>
 </html>
