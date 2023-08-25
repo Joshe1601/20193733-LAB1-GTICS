@@ -1,4 +1,4 @@
-package controller;
+package com.example.lab120193733gtics.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
