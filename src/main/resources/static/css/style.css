@@ -1,5 +1,8 @@
-body{
-    background-color: black;
+.main-container{
+    background-image:url(static/images/Muyuna-lodge-Iquitos.png);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
 }
 .navbar-container {
     display: flex;
